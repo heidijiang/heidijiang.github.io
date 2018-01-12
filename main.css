@@ -1,0 +1,101 @@
+body {
+    overflow: hidden;
+}
+html,
+body {
+    padding: 0;
+    /*margin: 1rem;*/
+    color: #000000;
+    background-color:#efefef;
+    font-family: futura;
+    cursor: url(cursor.gif) 17 17, move;
+
+}
+
+a:link {
+    color: #f29eb9;
+    text-decoration: none;
+    cursor: url(cursor2.gif) 17 17, move;
+}
+a:visited {
+    color: #f29eb9;
+    text-decoration: none;
+    cursor: url(cursor2.gif) 17 17, move;
+}
+a:hover {
+    color: #bd4a70;
+    text-decoration: none;
+    cursor: url(cursor2.gif) 17 17, move;
+}
+a:active {
+    color: #f29eb9;
+    text-decoration: none;
+    cursor: url(cursor2.gif) 17 17, move;
+}
+h2 {
+    font-size: 18px;
+}
+.nav {
+    background-color:#623544;
+    border-bottom: 2vh double #000000;
+
+}
+.nav li{
+    display: inline;
+    font-weight: bold;
+}
+.nav ul{
+    border:0;
+}
+
+.Container {
+    display: flex;
+    height: 75vh;
+    padding-top: 10vh;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    font-size: 90%;
+}
+
+.Left::-webkit-scrollbar,
+.Right::-webkit-scrollbar {
+    display: none;
+}
+.Left {
+    width: 50vh;
+    background-color: white;
+    border:1px solid black;
+    overflow: auto;    
+}
+
+.Right {
+    overflow: auto;
+    width: 50vh;
+    background-color: #f7eded;
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+    /*padding-top: 2.5vh;*/
+    padding-bottom: 1vh;
+    margin-left:10vh;
+    text-align: justify;
+    line-height: 120%;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    border:1px solid black;
+}
+
+.Right_pics {
+    overflow: auto;
+    width: 50vh;
+    background-color: #efefef;
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+    /*padding-top: 2.5vh;*/
+    padding-bottom: 1vh;
+    margin-left:10vh;
+    text-align: justify;
+    line-height: 120%;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;}
+

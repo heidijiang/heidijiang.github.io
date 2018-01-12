@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pilaf's pics</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="main.css">
+
+		<script type="text/javascript">
+			function displayImg(imgName) {
+				var curImage = document.getElementById('currentImg');
+				
+				curImage.src = imgName
+				// curImage.width = 450
+				// curImage.alt = imgName;
+				// curImage.title = imgName;
+			}
+		</script>
+	</head>
+	<body>
+		<div class="nav">
+	      <div class="container">
+	          <ul class ="nav navbar-nav navbar-right">
+	          	<li><a href="index.html">HOME</a></li>
+	          	<li><a href="bio.html">BIO</a></li>
+	          	<li><a href="pics.html">SELFIES</a></li>
+	          </ul>
+	      </div>
+    	</div>
+		<div class="Container">
+
+            <div class="Left">
+            	<div id="rightDisplay">
+      				<img id="currentImg" src="pilaf_master.gif" width="100%" alt="pilaf licking" title="pilaf_master.gif">
+  				</div>
+        	</div>
+        	<div class="Right_pics">
+        		<h2><b>PILAF'S PICS</b></h2>
+        		 <div class="row">
+					<div class="col-md-4">
+					    <div class="thumbnail">
+				        	<img src="pilaf0.jpg" alt="pilaf:a schematic" onclick="displayImg('pilaf0.jpg');">
+						</div>
+					</div>
+					<div class="col-md-4">
+					    <div class="thumbnail">
+				        	<img src="pilaf1.jpg" alt="pilaf:a schematic" onclick="displayImg('pilaf1.jpg');">
+						</div>
+					</div>
+					<div class="col-md-4">
+					    <div class="thumbnail">
+				        	<img src="pilaf2.jpg" alt="pilaf:a schematic" onclick="displayImg('pilaf2.jpg');">
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4">
+					    <div class="thumbnail">
+				        	<img src="pilaf3.jpg" alt="pilaf:a schematic" onclick="displayImg('pilaf3.jpg');" >
+						</div>
+					</div>
+					<div class="col-md-4">
+					    <div class="thumbnail">
+				        	<img src="pilaf4.jpg" alt="pilaf:a schematic" onclick="displayImg('pilaf4.jpg');">
+						</div>
+					</div>
+					<div class="col-md-4">
+					    <div class="thumbnail">
+				        	<img src="pilaf5.jpg" alt="pilaf:a schematic" onclick="displayImg('pilaf5.jpg');">
+						</div>
+					</div>
+				</div>
+			</div>
+	</body>
+</html>
