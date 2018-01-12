@@ -8,7 +8,7 @@ body {
     color: #000000;
     background-color:#efefef;
     font-family: futura;
-    cursor: url(cursor.gif) 17 17, move;
+    cursor: url(cursor1.gif) 17 17, move;
 
 }
 
@@ -38,7 +38,6 @@ h2 {
 .nav {
     background-color:#623544;
     border-bottom: 2vh double #000000;
-
 }
 .nav li{
     display: inline;
@@ -98,4 +97,7 @@ h2 {
     line-height: 120%;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: none;}
+.thumbnail {
+    overflow: fixed;
+}
 
