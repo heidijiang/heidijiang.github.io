@@ -1,5 +1,3 @@
-
-html,
 body {
     overflow: scroll;
     padding: 0;
@@ -32,12 +30,6 @@ a:active {
 }
 h2 {
     font-size: 110%;
-}
-
-.header{
-    overflow-x:scroll;
-    margin-left:5vw;
-    margin-right:5vw;
 }
 
 .nav {
