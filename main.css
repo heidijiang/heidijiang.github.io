@@ -50,12 +50,13 @@ h2 {
 
 .Container {
     display: flex;
-    height: 70vh;
-    padding-top: 10vh;
+    height: 60vh;
+    /*padding-top: 10vh;*/
     justify-content: center;
     position: relative;
     width: 100%;
     font-size: 90%;
+    margin: 10vh auto;
 }
 
 .Left::-webkit-scrollbar,
@@ -64,10 +65,10 @@ h2 {
 }
 .Left {
     width: 35vw;
-    margin-left:10vw;
+    height: 60vh;
     background-color: white;
     border:1px solid black;
-    overflow: auto;    
+    /*overflow: auto;    */
 }
 
 
@@ -79,8 +80,7 @@ h2 {
     padding-right: 2.5vw;
     /*padding-top: 2.5vh;*/
     padding-bottom: 1vh;
-    margin-left:10vw;
-    margin-right:10vw;
+    margin-left:5vw;
     text-align: justify;
     line-height: 120%;
     -webkit-overflow-scrolling: touch;
@@ -96,7 +96,7 @@ h2 {
     padding-right: 2.5vw;
     padding-top: 2.5vh;
     padding-bottom: 1vh;
-    margin-left:10vw;
+    margin-left:5vw;
     text-align: justify;
     line-height: 120%;
     -webkit-overflow-scrolling: touch;
