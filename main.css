@@ -1,20 +1,20 @@
 body {
     overflow: scroll;
     padding: 0;
-    color: #000000;
+    color: #443235;
     background-color:#efefef;
-    font-family: futura;
+    font-family: Gotham Book, futura, Arial, sans-serif;
     cursor: url(cursor1.gif) 17 17, move;
 
 }
 
 a:link {
-    color: #f29eb9;
+    color: #dde0ec;
     text-decoration: none;
     cursor: url(cursor2.gif) 17 17, move;
 }
 a:visited {
-    color: #f29eb9;
+    color: #dde0ec;
     text-decoration: none;
     cursor: url(cursor2.gif) 17 17, move;
 }
@@ -24,17 +24,14 @@ a:hover {
     cursor: url(cursor2.gif) 17 17, move;
 }
 a:active {
-    color: #f29eb9;
+    color: #dde0ec;
     text-decoration: none;
     cursor: url(cursor2.gif) 17 17, move;
 }
-h2 {
-    font-size: 110%;
-}
 
 .nav {
-    background-color:#623544;
-    border-bottom: 2vh double #000000;
+    background-color:#9fa1ae;
+    border-bottom: 1vh double #443235;
 }
 .nav li{
     display: inline-block;
@@ -58,8 +55,8 @@ h2 {
 
 .Container3 {
     width:50vw;
-    height:40vw;
-    padding-left: 2.5vw;
+    height:50vw;
+    padding-left: 3vw;
     padding-right: 2.5vw;
     justify-content:center;
     text-align: justify;
@@ -67,11 +64,12 @@ h2 {
     margin-bottom:15vh;
     margin-left:25vw;
     margin-right:25vw;
+    line-height: 120%;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: none;
     overflow:scroll;
-    border: 1px solid black;
-    background-color: #f7eded;
+    /*border: 1px solid black;*/
+    background-color: #efefef;
 }
 .Left::-webkit-scrollbar,
 .Container3::-webkit-scrollbar,
@@ -89,16 +87,16 @@ h2 {
 .Right {
     overflow: auto;
     width: 35vw;
-    background-color: #f7eded;
+    background-color: #f4eaeb;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
     padding-bottom: 1vh;
-    margin-left: -1px;
+    margin-left: -5px;
     text-align: justify;
     line-height: 120%;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: none;
-    border:1px solid black;
+    border:5px solid #cfc4c5;
     overflow: auto;
 }
 
@@ -125,9 +123,13 @@ h2 {
     height:8vh
     line-height:6vh;
     bottom:0;
-    background-color:#623544;
-    border-top: .5vh solid #000000;
+    background-color:#9fa1ae;
+    border-top: .5vh solid #443235;
     text-align: center;
     font-size: 80%;
+}
+h1,h2 {
+    font-size: 110%;
+    color: #404555;
 }
 
