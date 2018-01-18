@@ -51,8 +51,8 @@ h2 {
     display: flex;
     height: 70vh;
     padding-top: 10vh;
-    justify-content: center;
-    position: relative;
+    /*justify-content: center;*/
+    /*position: relative;*/
     width: 100%;
     font-size: 90%;
 }
@@ -62,21 +62,24 @@ h2 {
     display: none;
 }
 .Left {
-    width: 50vh;
+    width: 35vw;
+    margin-left:10vw;
     background-color: white;
     border:1px solid black;
     overflow: auto;    
 }
 
+
 .Right {
     overflow: auto;
-    width: 50vh;
+    width: 35vw;
     background-color: #f7eded;
-    padding-left: 2.5vh;
-    padding-right: 2.5vh;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
     /*padding-top: 2.5vh;*/
     padding-bottom: 1vh;
-    margin-left:10vh;
+    margin-left:10vw;
+    margin-right:10vw;
     text-align: justify;
     line-height: 120%;
     -webkit-overflow-scrolling: touch;
@@ -86,13 +89,13 @@ h2 {
 
 .Right_pics {
     overflow: auto;
-    width: 50vh;
+    width: 35vw;
     background-color: #efefef;
-    padding-left: 2.5vh;
-    padding-right: 2.5vh;
-    /*padding-top: 2.5vh;*/
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 2.5vh;
     padding-bottom: 1vh;
-    margin-left:10vh;
+    margin-left:10vw;
     text-align: justify;
     line-height: 120%;
     -webkit-overflow-scrolling: touch;
