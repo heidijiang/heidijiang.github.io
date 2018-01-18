@@ -1,8 +1,7 @@
-body {
-    overflow: scroll;
-}
+
 html,
 body {
+    overflow: scroll;
     padding: 0;
     color: #000000;
     background-color:#efefef;
@@ -35,8 +34,13 @@ h2 {
     font-size: 110%;
 }
 
-.nav {
+.header{
+    overflow-x:scroll;
+    margin-left:5vw;
+    margin-right:5vw;
+}
 
+.nav {
     background-color:#623544;
     border-bottom: 2vh double #000000;
 }
