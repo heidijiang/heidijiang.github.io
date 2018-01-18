@@ -1,10 +1,9 @@
 body {
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 html,
 body {
     padding: 0;
-    /*margin: 1rem;*/
     color: #000000;
     background-color:#efefef;
     font-family: futura;
@@ -48,7 +47,7 @@ h2 {
     border:0;
 }
 
-.Container {
+.Container2 {
     display: flex;
     height: 60vh;
     /*padding-top: 10vh;*/
@@ -56,19 +55,38 @@ h2 {
     position: relative;
     width: 100%;
     font-size: 90%;
-    margin: 10vh auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
+.Container3 {
+    width:50vw;
+    height:40vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    justify-content:center;
+    text-align: justify;
+    margin-top:10vh;
+    margin-bottom:15vh;
+    margin-left:25vw;
+    margin-right:25vw;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    overflow:scroll;
+    border: 1px solid black;
+    background-color: #f7eded;
+}
 .Left::-webkit-scrollbar,
+.Container3::-webkit-scrollbar,
 .Right::-webkit-scrollbar {
     display: none;
 }
 .Left {
-    width: 35vw;
+    /*width: 35vw;*/
     height: 60vh;
-    background-color: white;
-    border:1px solid black;
-    /*overflow: auto;    */
+    background-color: #efefef;
+    overflow: auto;
+    
 }
 
 
@@ -78,14 +96,14 @@ h2 {
     background-color: #f7eded;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
-    /*padding-top: 2.5vh;*/
     padding-bottom: 1vh;
-    margin-left:5vw;
+    margin-left: -1px;
     text-align: justify;
     line-height: 120%;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: none;
     border:1px solid black;
+    overflow: auto;
 }
 
 .Right_pics {
@@ -94,13 +112,13 @@ h2 {
     background-color: #efefef;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
-    padding-top: 2.5vh;
     padding-bottom: 1vh;
-    margin-left:5vw;
+    margin-left:0px;
     text-align: justify;
     line-height: 120%;
     -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: none;}
+    -ms-overflow-style: none;
+}
 .thumbnail {
     overflow: fixed;
 }
