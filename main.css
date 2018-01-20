@@ -1,29 +1,165 @@
-html,body {
-	background-color: #e6ddde;
-	font-family: futura, arial;
-	color: black;
-	height: 100%;
+/*general stuff*/
+body {
+    overflow: scroll;
+    padding: 0;
+    color: #443235;
+    background-color:#efefef;
+    font-family: futura, Arial, sans-serif;
+    font-size: 1.6vw;
 }
 
-a {
-	color: black;
+a{
+    color: #535565;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #bd4a70;
+    text-decoration: none;
+    transition:1s;
 }
 
 h1 {
-	font-weight: bold;
-	font-size: 4vh;
-	text-align:center;
-	border: 5px solid white;
-	padding: 8vh;
-}
-.container {
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    font-size:3vw;
+    color: #ddbec6;
     text-align:center;
-	margin:auto;
-	
+    font-weight: bold;
+}
+h2 {
+    font-size: 2.5vw;
+    color: #404555;
+    text-align:center;
+    font-weight: bold;
+}
+h3 {
+    font-size: 2vw;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 5vh;
+}
+h4 {
+    font-size: 1.5vw;
+    color: #000000;
+    /*margin-top: 10vh;*/
+    text-align:center;
+    margin-top:-1vh;
+    font-weight: bold;
 }
 
+/*header and footer stuff*/
+.nav li{
+    display: inline-block;
+    font-weight: bold;
+}
+.nav ul{
+    border:0;
+}
+
+.header {
+    width:100%;
+    height: 10vh;
+    padding-left:5vw;
+    padding-right: 5vw;
+    padding-top: .5vh;
+    position:fixed;
+    background-color:#232a3c;
+    /*border:1px solid #9fa1ae;*/
+    border-bottom: 1vh double #FFFFFF;
+}
+
+.footer {
+    /*position:fixed;*/
+    width:100%;
+    height:8vh
+    padding: 2%;
+    line-height:6vh;
+    bottom:0;
+    background-color:#9fa1ae;
+    border-top: .5vh solid #443235;
+    text-align: center;
+    font-size: 1.25vw;
+}
+
+/*related to index and bio pages*/
+.first {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10vh;
+    margin-top: 20vh;
+}
+
+.second {
+    display:block;
+    height: 100%;
+    width: 100%;
+    padding-left:25%;
+    padding-right:25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #9d827b;
+    justify-content:center;
+    text-align: justify;
+    overflow:scroll;
+}
+
+.third {
+    display:block;
+    height: 100%;
+    width: 100%;
+    padding-left:15%;
+    padding-right:15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #d4c6ca;
+    justify-content:center;
+    text-align: justify;
+    overflow:scroll;
+    /*line-height:4vh;*/
+}
+.fourth {
+    display:block;
+    height: 100%;
+    width: 100%;
+    padding-left:25%;
+    padding-right:25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #efefef;
+    justify-content:center;
+    text-align: justify;
+    overflow:scroll;
+}
+.last {
+    padding-left:15%;
+    padding-right:10%;
+}
+
+#cv {
+    text-aligh:left;
+}
+/*misc image attributes*/
+
+#master_img {
+     width:10%;
+     display:block;
+     margin-top: 10vh;
+     margin-left: auto;
+     margin-right: auto;
+}
+#img1 {
+     display:block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 5vh;
+     width:35%;
+}
+
+.detail {
+    color: #d4451a;
+}
+
+.year {
+    color: #af8289;
+}
