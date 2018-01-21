@@ -5,7 +5,7 @@ body {
     color: #443235;
     background-color:#efefef;
     font-family: futura, Arial, sans-serif;
-    font-size: 1.6vw;
+    font-size: 14px;
 }
 
 a{
@@ -14,13 +14,13 @@ a{
 }
 
 a:hover {
-    color: #bd4a70;
+    color: #d4451a;
     text-decoration: none;
-    transition:1s;
+    transition:.5s;
 }
 
 h1 {
-    font-size:3vw;
+    font-size:24px;
     letter-spacing: 3px;
     color: #d4451a;
     text-align:center;
@@ -33,18 +33,18 @@ h2 {
     color: #404555;
     text-align:center;
     font-weight: bold;
-    text-shadow: 3px 2px #FFFFFF;
 }
 h3 {
-    font-size: 2vw;
+    font-size: 18px;
     color: #ffffff;
     font-weight: bold;
-    line-height: 5vh;
+    line-height: 30px;
     letter-spacing: 10px;
-    text-shadow: 3px 2px #232a3c;
+    text-shadow: 2.5px 2px #232a3c;
+    text-align:left;
 }
 h4 {
-    font-size: 1.5vw;
+    font-size: 14px;
     color: #000000;
     /*margin-top: 10vh;*/
     text-align:center;
@@ -57,8 +57,10 @@ h4 {
     display: inline-block;
     font-weight: bold;
 }
-.nav ul{
-    border:0;
+
+.nav ul a:hover{
+    background-color: #232a3c;
+    text-shadow: 1px 1px black;
 }
 
 .header {
