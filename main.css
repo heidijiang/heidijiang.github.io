@@ -4,7 +4,7 @@ body {
     padding: 0;
     color: #443235;
     background-color:#efefef;
-    font-family: futura, Arial, sans-serif;
+    font-family: futura, Nunito, Arial, sans-serif;
     font-size: 14px;
 }
 
@@ -155,7 +155,7 @@ h4 {
 /*misc image attributes*/
 
 #master_img {
-     width:10%;
+     width:150px;
      display:block;
      margin-top: 10vh;
      margin-left: auto;
