@@ -4,7 +4,7 @@ body {
     padding: 0;
     color: #443235;
     background-color:#efefef;
-    font-family: futura, Nunito, Arial, sans-serif;
+    font-family: Inconsolata;
     font-size: 14px;
 }
 
@@ -42,6 +42,7 @@ h3 {
     letter-spacing: 10px;
     text-shadow: 2.5px 2px #232a3c;
     text-align:left;
+    font-family: futura, Nunito, Arial, sans-serif;
 }
 h4 {
     font-size: 14px;
@@ -95,6 +96,7 @@ h4 {
     margin-top: 10vh;
     position: fixed;
     z-index: -1;
+    font-family: futura, Nunito, Arial, sans-serif;
 }
 
 .wrapper {
@@ -108,7 +110,7 @@ h4 {
     padding-right:25%;
     padding-top: 5%;
     padding-bottom: 5%;
-    background-color: #9d827b;
+    background-color: #b79b94;
     justify-content:center;
     text-align: justify;
     padding-bottom: 5%;
@@ -147,6 +149,7 @@ h4 {
 
 .detail {
     color: #d4451a;
+
 }
 
 .year {
